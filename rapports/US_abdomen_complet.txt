@@ -1,47 +1,29 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red25\green28\blue31;}
-{\*\expandedcolortbl;;\cssrgb\c12941\c14510\c16078;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sa240\partightenfactor0
+Échographie abdominopelvienne
 
-\f0\b\fs28\fsmilli14400 \cf2 \expnd0\expndtw0\kerning0
-\ul \ulc2 \outl0\strokewidth0 \strokec2 \'c9chographie abdominopelvienne
-\f1\b0 \ulnone \
+Indication:
 
-\f0\b \ul Indication :\ulnone \
+Technique:
+Examen réalisé avec un appareil [Philips Epiq 7G].
 
-\f1\b0 \
+Résultats:
+Absence de comparatif disponible.
+Foie droit et gauche de taille normales, de [XXX] et [XXX]cm respectivement, d’aspect iso-échogène aux reins, et de morphologie normales, sans lésion focale suspecte identifiée.
+Vitesse à [XXX] m/sec, compatible avec …
+Atténuation de [XXX] db/cm, compatible avec …
+Perméabilité du système porte, avec flux hépatopète à [XXX] m/s
+Perméabilité des veines hépatiques, avec flux hépatofuge.
+Perméabilité de la vascularisation artérielle hépatique.
+Vésicule biliaire sans lithiase et sans anomalie pariétale, notamment pas de signe d'inflammation.
+Absence de dilatation des voies biliaires intra et extra-hépatiques.
+Rate de taille normale de [XXX]cm de long axe
+Reins de taille, d'échogénicité et de morphologie normales, sans lésion focale suspecte identifiée.
+Vascularisation rénale globale conservée au Doppler couleur.
+Absence de dilatation pyélocalicielle (uretères masqués par les interpositions aérodigestives).
+Vessie sans particularité
+Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
+Aorte perméable de [XXX]cm de section, d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
+Tube digestif d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
+Absence d'épanchement péritonéal.
 
-\f0\b \ul Technique :
-\f1\b0 \ulnone \
-Examen r\'e9alis\'e9 avec un appareil [Philips Epiq 7G].\
-\pard\pardeftab720\partightenfactor0
-\cf2 \
-\pard\pardeftab720\sa240\partightenfactor0
-
-\f0\b \cf2 \ul \ulc2 R\'e9sultat :
-\f1\b0 \ulnone \
-Absence de comparatif disponible.\
-Foie droit et gauche de taille normales, de [XXX] et [XXX]cm respectivement, d\'92aspect iso-\'e9chog\'e8ne aux reins, et de morphologie normales, sans l\'e9sion focale suspecte identifi\'e9e.\
-Vitesse \'e0 [XXX] m/sec, compatible avec \'85\
-Att\'e9nuation de [XXX] db/cm, compatible avec \'85\
-Perm\'e9abilit\'e9 du syst\'e8me porte, avec flux h\'e9patop\'e8te \'e0 [XXX] m/s\
-Perm\'e9abilit\'e9 des veines h\'e9patiques, avec flux h\'e9patofuge.\
-Perm\'e9abilit\'e9 de la vascularisation art\'e9rielle h\'e9patique.\
-V\'e9sicule biliaire sans lithiase et sans anomalie pari\'e9tale, notamment pas de signe d'inflammation.\
-Absence de dilatation des voies biliaires intra et extra-h\'e9patiques.\
-Rate de taille normale de [XXX]cm de long axe\
-Reins de taille, d'\'e9chog\'e9nicit\'e9 et de morphologie normales, sans l\'e9sion focale suspecte identifi\'e9e.\
-Vascularisation r\'e9nale globale conserv\'e9e au Doppler couleur.\
-Absence de dilatation py\'e9localicielle (uret\'e8res masqu\'e9s par les interpositions a\'e9rodigestives).\
-Vessie sans particularit\'e9\
-Pancr\'e9as d'analyse limit\'e9e (interpositions a\'e9rodigestives), sans anomalie visible.\
-Aorte perm\'e9able de [XXX]cm de section, d'analyse limit\'e9e (interpositions a\'e9rodigestives), sans anomalie visible.\
-Tube digestif d'analyse limit\'e9e (interpositions a\'e9rodigestives), sans anomalie visible.\
-Absence d'\'e9panchement p\'e9riton\'e9al.\
-
-\f0\b \ul Conclusion :
-\f1\b0 \ulnone \
-Absence d'anomalie significative d\'e9cel\'e9e, sous r\'e9serve des interpositions a\'e9rodigestives.}
+Conclusion:
+Absence d'anomalie significative décelée, sous réserve des interpositions aérodigestives.
