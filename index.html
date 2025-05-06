@@ -12,7 +12,7 @@
       color: white;
     }
 
-    h1 { color: #360c20; }
+    h1, h2, h3 { color: #360c20; }
     ul { list-style: none; padding: 0; }
     li { margin: 10px 0; }
     a {
@@ -65,16 +65,16 @@
 <body>
   <h1>US</h1>
   <ul>
-    <li><a onclick="loadReport('rapports/US_abdomen_complet.txt')">US abdomen complet</a></li> 
-    <li><a onclick="loadReport('rapports/US_doppler_renal.txt')">US doppler renal</a></li> 
+    <li><a onclick="loadReport('rapports/US_abdomen_complet.html')">US abdomen complet</a></li> 
+    <li><a onclick="loadReport('rapports/US_doppler_renal.html')">US doppler rénal</a></li> 
   </ul>
   <h2>CT</h2>
   <ul>
-    <li><a onclick="loadReport('none.txt')">n.a.</a></li> 
+    <li><a onclick="loadReport('rapports/ct_na.html')">n.a.</a></li> 
   </ul>
   <h3>MRI</h3>
   <ul>
-    <li><a onclick="loadReport('none.txt')">n.a.</a></li> 
+    <li><a onclick="loadReport('rapports/mri_na.html')">n.a.</a></li> 
   </ul>
 
   <!-- Modal -->
@@ -82,6 +82,7 @@
     <div id="closeBtn" onclick="closeModal()">×</div>
     <div id="modalContent">
       <button onclick="copyToClipboard()">Copier le texte</button>
+      <div id="reportText">Chargement...</div>
     </div>
   </div>
 
@@ -89,8 +90,8 @@
     function loadReport(path) {
       fetch(path)
         .then(response => response.text())
-        .then(text => {
-          document.getElementById('reportText').textContent = text;
+        .then(html => {
+          document.getElementById('reportText').innerHTML = html;
           document.getElementById('modal').style.display = 'flex';
         });
     }
@@ -100,10 +101,14 @@
     }
 
     function copyToClipboard() {
-      const text = document.getElementById('reportText').textContent;
-      navigator.clipboard.writeText(text).then(() => {
-        alert('Texte copié dans le presse-papier !');
-      });
+      const range = document.createRange();
+      const selection = window.getSelection();
+      const reportDiv = document.getElementById('reportText');
+      range.selectNodeContents(reportDiv);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      document.execCommand('copy');
+      alert('Texte copié dans le presse-papier avec la mise en forme !');
     }
   </script>
 </body>
