@@ -70,16 +70,19 @@
   </ul>
   <h2>CT</h2>
   <ul>
-    <li><a onclick="loadReport('rapports/US_abdomen_complet.txt')">US abdomen complet</a></li> 
-    <li><a onclick="loadReport('rapports/US_doppler_renal.txt')">US doppler renal</a></li> 
+    <li><a onclick="loadReport('none.txt')">n.a.</a></li> 
+  </ul>
+  <h3>MRI</h3>
+  <ul>
+    <li><a onclick="loadReport('none.txt')">n.a.</a></li> 
   </ul>
 
   <!-- Modal -->
   <div id="modal">
     <div id="closeBtn" onclick="closeModal()">×</div>
     <div id="modalContent">
-      <pre id="reportText">Chargement...</pre>
       <button onclick="copyToClipboard()">Copier le texte</button>
+      <pre id="reportText">Chargement...</pre>
     </div>
   </div>
 
