@@ -24,6 +24,21 @@
 
     a:hover { text-decoration: underline; }
 
+    footer {
+      position: fixed;
+      bottom: 10px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    footer a {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: underline;
+    }
+
     /* Modal styles */
     #modal {
       display: none;
@@ -67,12 +82,14 @@
   <ul>
     <li><a onclick="loadReport('rapports/US_abdomen_complet.html')">US abdomen complet</a></li> 
     <li><a onclick="loadReport('rapports/US_doppler_renal.html')">US doppler rénal</a></li>
-    <li><a onclick="loadReport('rapports/US_testis.html')">US doppler rénal</a></li>
+    <li><a onclick="loadReport('rapports/US_testis.html')">US testiculaire</a></li>
   </ul>
+
   <h2>CT</h2>
   <ul>
     <li><a onclick="loadReport('rapports/ct_na.html')">n.a.</a></li> 
   </ul>
+
   <h3>MRI</h3>
   <ul>
     <li><a onclick="loadReport('rapports/mri_na.html')">n.a.</a></li> 
@@ -86,6 +103,11 @@
       <div id="reportText">Chargement...</div>
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Chablons adaptés des collègues chuviens et de <a href="https://www.radrap.ch" target="_blank">RadRap.ch</a></p>
+  </footer>
 
   <script>
     function loadReport(path) {
