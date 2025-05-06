@@ -3,12 +3,12 @@
 Indication:
 
 Technique:
-Examen réalisé avec un appareil [Philips Epiq 7G].
+Examen réalisé avec un appareil Philips Epiq 7G.
 
 Résultats:
 Absence de comparatif disponible.
 Foie droit et gauche de taille normales, de [XXX] et [XXX]cm respectivement, d’aspect iso-échogène aux reins, et de morphologie normales, sans lésion focale suspecte identifiée.
-Vitesse à [XXX] m/sec, compatible avec …
+Elastométrie mesurée à [XXX] m/sec, <1.3 dans la norme., >1.7 excluant une atteinte hépatique chronique compensée, en l'absence d'autre signe clinique, >2.1 suggestif d'une atteinte héaptique chronique compensée, à confirmer avec des examens dédiés, >2.4 suggestif d'une hypertension portale
 Atténuation de [XXX] db/cm, compatible avec …
 Perméabilité du système porte, avec flux hépatopète à [XXX] m/s
 Perméabilité des veines hépatiques, avec flux hépatofuge.
