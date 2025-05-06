@@ -1,0 +1,30 @@
+Echographie-Doppler des reins
+
+Indication :
+Patient/Patiente de XX ans, qui présente une insuffisance rénale aigue/chronique/aigue sur chronique. Demande de recherche de XXX, XXX et de sténose des artères rénales.
+
+Technique :
+Examen réalisé sur un appareil Philips Epiq 7G.
+
+Comparatif : XXX
+
+Résultat :
+Absence de comparatif disponible.
+
+Le rein droit est de taille normale mesuré à XX cm de grand axe. Bonne différenciation cortico-médullaire. Pas de dilatation pyélocalicielle.
+Les index de résistance intrarénaux sont dans la norme compris entre XX et XX, et les temps de montée systolique sont courts.
+L'artère rénale est perméable avec un spectre normal et une vitesse systolique maximale mesurée à XX cm/s au niveau du hile et à XX cm/s un niveau de l'ostium.
+La veine rénale est perméable.
+
+Le rein gauche est de taille normale mesuré à XX cm de grand axe. Bonne différenciation cortico-médullaire. Pas de dilatation pyélocalicielle.
+Les index de résistance intrarénaux sont dans la norme compris entre XXet XX, et les temps de montée systolique sont courts.
+L'artère rénale est perméable avec un spectre normal et une vitesse systolique maximale mesurée à XX cm/s au niveau du hile et à XX cm/s un niveau de l'ostium.
+La veine rénale est perméable.
+
+La vessie est en importante réplétion durant l'examen, à parois fines au contenu anéchogène.
+La prostate n'est pas dégagée.
+
+Conclusion :
+Examen Doppler rénal dans les limites de la norme.
+Pas de dilatation pyléo-calicielle bilatéralement.
+Pas d'argument pour une sténose des artères rénales.
