@@ -6,7 +6,12 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       background: url('images/fond2.jpg') no-repeat center center fixed;
       background-size: cover;
       color: rgba(255, 255, 255, 0.8);
@@ -14,6 +19,20 @@
 
     h1, h2, h3 {
       color: rgba(255, 255, 255, 0.8);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      text-align: left;
+      width: 100%;
+      max-width: 1200px;
+      padding: 40px;
+    }
+
+    .column {
+      flex: 1;
     }
 
     ul {
@@ -95,23 +114,32 @@
   </style>
 </head>
 <body>
-  <h1>US</h1>
-  <ul>
-    <li><a onclick="loadReport('rapports/US_abdomen_complet.html')">US abdomen complet</a></li> 
-    <li><a onclick="loadReport('rapports/US_doppler_renal.html')">US doppler rénal</a></li>
-    <li><a onclick="loadReport('rapports/US_testis.html')">US testis</a></li>
-    <li><a onclick="loadReport('rapports/US_thyroid.html')">US thyroid</a></li>  
-  </ul>
 
-  <h2>CT</h2>
-  <ul>
-    <li><a onclick="loadReport('rapports/ct_na.html')">n.a.</a></li> 
-  </ul>
+  <div class="container">
+    <div class="column">
+      <h1>US</h1>
+      <ul>
+        <li><a onclick="loadReport('rapports/US_abdomen_complet.html')">US abdomen complet</a></li> 
+        <li><a onclick="loadReport('rapports/US_doppler_renal.html')">US doppler rénal</a></li>
+        <li><a onclick="loadReport('rapports/US_testis.html')">US testis</a></li>
+        <li><a onclick="loadReport('rapports/US_thyroid.html')">US thyroid</a></li>  
+      </ul>
+    </div>
 
-  <h3>MRI</h3>
-  <ul>
-    <li><a onclick="loadReport('rapports/mri_na.html')">n.a.</a></li> 
-  </ul>
+    <div class="column">
+      <h2>CT</h2>
+      <ul>
+        <li><a onclick="loadReport('rapports/ct_na.html')">n.a.</a></li> 
+      </ul>
+    </div>
+
+    <div class="column">
+      <h3>MRI</h3>
+      <ul>
+        <li><a onclick="loadReport('rapports/mri_na.html')">n.a.</a></li> 
+      </ul>
+    </div>
+  </div>
 
   <!-- Modal -->
   <div id="modal">
