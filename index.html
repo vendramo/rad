@@ -68,7 +68,8 @@
     }
 
     #modalContent {
-      background: white;
+      background: rgba(255, 255, 255, 0.4); /* transparence */
+      backdrop-filter: blur(6px); /* effet flou élégant */
       color: black;
       padding: 20px;
       max-width: 90%;
@@ -111,6 +112,31 @@
       color: rgba(255, 255, 255, 0.7);
       text-decoration: underline;
     }
+
+    /* Toast notification */
+    #toast {
+      visibility: hidden;
+      min-width: 280px;
+      margin-left: -140px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 12px;
+      position: fixed;
+      z-index: 1000;
+      left: 50%;
+      bottom: 50px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      transition: visibility 0s, opacity 0.5s ease;
+      opacity: 0;
+    }
+
+    #toast.show {
+      visibility: visible;
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -119,14 +145,13 @@
     <div class="column">
       <h1>US</h1>
       <ul>
-        <li><a onclick="loadReport('rapports/US_chablon.html')">US chablons vide</a></li> 
+        <li><a onclick="loadReport('rapports/US_chablon.html')">US chablon vide</a></li> 
         <li><a onclick="loadReport('rapports/US_abdomen_complet.html')">US abdomen complet</a></li> 
         <li><a onclick="loadReport('rapports/US_doppler_renal.html')">US doppler rénal</a></li>
         <li><a onclick="loadReport('rapports/US_testis.html')">US testis</a></li>
         <li><a onclick="loadReport('rapports/US_seins.html')">US seins</a></li> 
         <li><a onclick="loadReport('rapports/US_thyroid.html')">US thyroid</a></li> 
         <li><a onclick="loadReport('rapports/US_ponction_biopsie.html')">US ponction biopsie</a></li> 
-        
       </ul>
     </div>
 
@@ -159,6 +184,9 @@
     <p>Chablons adaptés des collègues chuviens et de <a href="https://www.radrap.ch" target="_blank">RadRap.ch</a></p>
   </footer>
 
+  <!-- Toast -->
+  <div id="toast">Texte copié dans le presse-papier avec la mise en forme !</div>
+
   <script>
     function loadReport(path) {
       fetch(path)
@@ -181,7 +209,13 @@
       selection.removeAllRanges();
       selection.addRange(range);
       document.execCommand('copy');
-      alert('Texte copié dans le presse-papier avec la mise en forme !');
+
+      // Affiche le toast
+      const toast = document.getElementById('toast');
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2000);
     }
   </script>
 </body>
