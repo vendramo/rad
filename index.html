@@ -66,11 +66,13 @@
       align-items: center;
     }
 
-    #modal button {
-      margin-top: 10px;
-      padding: 8px 16px;
-      font-size: 14px;
-      font-family: Arial, sans-serif;
+    #closeBtn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
     }
 
     #modalContent {
@@ -159,7 +161,6 @@
     </div>
   </div>
 
-  <!-- Modal -->
   <div id="modal">
     <div id="closeBtn" onclick="closeModal()">×</div>
     <div id="modalContent">
@@ -168,12 +169,10 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer>
     <p>Chablons adaptés des collègues chuviens et de <a href="https://www.radrap.ch" target="_blank">RadRap.ch</a></p>
   </footer>
 
-  <!-- Toast -->
   <div id="toast">Texte copié dans le presse-papier avec la mise en forme !</div>
 
   <script>
@@ -199,7 +198,6 @@
       selection.addRange(range);
       document.execCommand('copy');
 
-      // Affiche le toast
       const toast = document.getElementById('toast');
       toast.classList.add('show');
       setTimeout(() => {
